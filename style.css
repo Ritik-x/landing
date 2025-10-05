@@ -76,7 +76,8 @@ body {
 }
 
 .logo img {
-  max-height: 40px;
+  width: 231.17px;
+  height: 58px;
 }
 
 .nav-links {
@@ -104,6 +105,8 @@ body {
   border-radius: 40px;
   border: none;
   cursor: pointer;
+  width: 147px;
+  height: 46px;
 }
 
 /* Hamburger (hidden on desktop) */
@@ -196,6 +199,8 @@ body {
   font-size: 16px;
   margin-bottom: 30px;
   max-width: 600px;
+  width: 485px;
+  height: 136px;
 }
 
 .buttons {
@@ -247,11 +252,18 @@ body {
 
 .rating {
   position: absolute;
-  top: 400px; /* upar se kitna distance */
-  bottom: 200px;
-  left: 40px; /* left se kitna, ya right: 20px if you want */
-  width: 200px; /* adjust size */
+  top: 330px;
+  left: 1px; /* base position */
+  transform: translateX(
+    -90px
+  ); /* negative = move left, positive = move right */
+  width: 350px;
+  height: 117px;
   z-index: 10;
+}
+.students {
+  width: 506px;
+  height: 727px;
 }
 
 /* FEATURES */
@@ -275,6 +287,10 @@ body {
   font-size: 16px;
   margin-bottom: 40px;
   color: #666;
+  font-weight: bold;
+  width: 1200px;
+  height: 31px;
+  fill: #000000;
 }
 
 .feature-cards {
@@ -289,6 +305,8 @@ body {
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s ease;
+  height: 450px;
+  width: 298px;
 }
 
 .card:hover {
@@ -306,11 +324,15 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
   font-weight: 600;
+  width: 258px;
+  height: 48px;
 }
 
 .card p {
   font-size: 14px;
   color: #444;
+  width: 258px;
+  height: 48px;
 }
 
 /* RESPONSIVENESS */
